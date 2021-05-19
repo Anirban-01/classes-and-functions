@@ -1,0 +1,13 @@
+class Time:
+    def printTime(self,Time):
+        print(time.hour,':',time.minutes,':',time.seconds)
+
+
+# object of class Time
+time = Time()
+# hours, minutes and seconds are attributes
+time.hour = 11
+time.minutes = 59
+time.seconds = 30
+
+time.printTime(Time)
